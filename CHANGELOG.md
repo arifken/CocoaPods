@@ -16,6 +16,13 @@ To install release candidates run `[sudo] gem install cocoapods --pre`
 * Don't warn about setting base config when identical to current config.  
   [Jed Lewison](https://github.com/jedlewison)
   [#4722](https://github.com/CocoaPods/CocoaPods/issues/4722)
+##### Enhancements
+
+* Present a friendly error suggesting running `pod install` when there are
+  missing local podspecs when running `pod outdated`.  
+  [Samuel Giddins](https://github.com/segiddins)
+  [#4716](https://github.com/CocoaPods/CocoaPods/issues/4716)
+
 
 * Add `user_targets` method to the `UmbrellaTargetDescription` in the
   post-install hooks context.  
